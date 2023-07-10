@@ -22,7 +22,7 @@ module trellis_token::trellis_token {
          let (burn_cap, freeze_cap, mint_cap) = coin::initialize<TrellisToken>(
             admin,
             string::utf8(b"Trellis Token"),
-            string::utf8(b"TREIS"),
+            string::utf8(b"TRELLIS"),
             DECIMAL,
             true,
         );
